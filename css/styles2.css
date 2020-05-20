@@ -1,0 +1,13 @@
+#page2{
+	padding: 0px;
+	margin: 0px;
+	background-image: url("../images/background2.png");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+#excontainer1{
+	margin-top: 10vw;
+}
+#newTable{
+	margin-top: 1vw;
+}

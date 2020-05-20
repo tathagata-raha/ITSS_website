@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Projects</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/styles2.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	</head>
+<body id="page2">
+	<div id="nav-bara">
+		<a href="index.html" id=ahome>Home</a>
+		<a href="exercises.html" id=ainterest>Exercises</a>
+		<a href="gallery.html" id=agallery>Gallery</a>
+		<a href="contact.html" id=acontact>Contact</a>
+	</div>
+	<div class="container" id="excontainer1">
+		<table class="table table-striped table-bordered table-responsive">
+			<thead>
+				<tr>
+					<th colspan="2">Name*</th>
+					<th>Reg No.</th>
+					<th>Hostel</th>
+					<th>Room No.</th>
+					<th>Favourite website</th>
+				</tr>
+				<tr>
+					<th>First name</th>
+					<th>Last name</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Tathagata</td>
+					<td>Raha</td>
+					<td>2018114017</td>
+					<td>Bakul</td>
+					<td>141</td>
+					<td><a href="https://www.cricbuzz.com/" target="_blank">Cricbuzz</a></td>
+				</tr>
+				<tr>
+					<td>Dipanwita</td>
+					<td>Guhathakurta</td>
+					<td>2018112004</td>
+					<td>Parijaat</td>
+					<td>309</td>
+					<td><a href="https://www.quora.com/" target="_blank">Quora</a></td>
+				</tr>
+				<tr>
+					<td>Mukund</td>
+					<td>Chaudhury</td>
+					<td>2018114015</td>
+					<td>Bakul</td>
+					<td>417</td>
+					<td><a href="https://ltrc.iiit.ac.in/" target="_blank">LTRC</a></td>
+				</tr>
+				<tr>
+					<td>Astitva</td>
+					<td>Ranjan</td>
+					<td>2018112006</td>
+					<td>Bakul</td>
+					<td>239</td>
+					<td><a href="https://www.fifa.com/" target="_blank">FIFA</a></td>
+				</tr>
+				<tr>
+					<td>KV Aditya</td>
+					<td>Shrivastava</td>
+					<td>2018114018</td>
+					<td>Bakul</td>
+					<td>161</td>
+					<td><a href="https://www.twitter.com/" target="_blank">Twitter</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="container"><h6>*This is a merged cell</h6></div>
+	<div class="container" id="excontainer2">
+	<div class="form-group">
+	<label for="nameText">Name:</label>
+	<input type="text" class="form-control" id="nameText">
+	</div>
+	<div class="form-group">
+	<label for="skillText">Skill:</label>
+	<input type="text" class="form-control" id="skillText">
+	</div>
+	<div class="dropdown">
+	<button class="btn btn-primary dropdown-toggle" id="dropdown1" type="button" data-toggle="dropdown">Proficiency
+	<span class="caret"></span></button>
+	<ul class="dropdown-menu">
+	<li><a href="#" onclick="beginnerclick()">Beginner</a></li>
+	<li><a href="#" onclick="intermediateclick()">Intermediate</a></li>
+	<li><a href="#" onclick="proficientclick()">Proficient</a></li>
+	</ul>
+	</div>
+	<br>
+	<button type="button" class="btn" onclick="submitbuttonclick()">Submit</button>
+	</div>
+	<div class="container">
+		<h2>Like it!!!!</h2>
+		<h2>Click the button below to like</h2>
+		<button type="button" class="btn" onclick="likebuttonclick()" id="likeButton">0 likes</button>
+	</div>
+	<script src="../js/script2.js"></script>
+	<script src="../js/common.js"></script>
+</body>
+</html> 

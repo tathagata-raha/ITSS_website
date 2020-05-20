@@ -1,0 +1,82 @@
+html{
+	margin: 0px;
+	padding: 0px;
+	
+}
+#nav-bara{
+	background-color:black;
+	z-index: 20;
+	width: 100vw;
+	height: 4vw;
+	top: 0vw;
+	padding-left: 4%;
+}
+#agallery{
+	position: absolute;
+	right: 13vw;
+	top: 1vw;
+	color: white;
+	z-index: 100;
+	opacity: 1;
+	font-family: Elite;
+	font-size: 2vw;
+	text-decoration: none;
+}
+
+
+#acontact{
+	position: absolute;
+	right: 2vw;
+	top: 1vw;
+	color: white;
+	z-index: 100;
+	opacity: 1;
+	font-family: Elite;
+	font-size: 2vw;
+	text-decoration: none;
+}
+
+#ahome{
+	position: absolute;
+	right: 37vw;
+	top: 1vw;
+	color: white;
+	z-index: 100;
+	opacity: 1;
+	font-family: Elite;
+	font-size: 2vw;
+	text-decoration: none;
+}
+
+
+#ainterest{
+	position: absolute;
+	right: 24vw;
+	top: 1vw;
+	color: white;
+	z-index: 100;
+	opacity: 1;
+	font-family: Elite;
+	font-size: 2vw;
+	text-decoration: none;
+}
+
+
+#jumbo2{
+	margin-top: 5px;
+}
+@font-face 
+{
+	font-family: Acme;
+	src: url('../font/Acme-Regular.ttf');
+}
+@font-face 
+{
+	font-family: Elite;
+	src: url('../font/SpecialElite-Regular.ttf');
+}
+@font-face 
+{
+	font-family: Bree;
+	src: url('../font/BreeSerif-Regular.ttf');
+}
